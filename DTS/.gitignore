@@ -1,0 +1,46 @@
+# ─── Node & Dependencies ─────────────────────────────
+node_modules/
+**/node_modules/
+
+# ─── Environment Files ───────────────────────────────
+.env
+.env.*
+**/.env
+**/.env.*
+
+# ─── Build Outputs ───────────────────────────────────
+dist/
+build/
+.cache/
+.next/
+out/
+.tmp/
+coverage/
+*.log
+
+# ─── OS & Editor Junk ────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ─── VSCode / IDE Configs ─────────────────────────────
+.vscode/
+.idea/
+*.iml
+
+# ─── TypeScript / Linting ─────────────────────────────
+*.tsbuildinfo
+eslintcache
+
+# ─── Local Files ─────────────────────────────────────
+*.local
+*.pid
+*.seed
+*.pid.lock
+
+# ─── Misc ─────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
